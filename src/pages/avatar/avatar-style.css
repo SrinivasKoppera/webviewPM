@@ -314,7 +314,7 @@
   font-weight: 700;
   font-family: Inter;
   background: linear-gradient(269.28deg, #bf620d, #ff8c21);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
