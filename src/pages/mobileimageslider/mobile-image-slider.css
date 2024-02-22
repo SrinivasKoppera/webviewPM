@@ -22,11 +22,7 @@
   color: #f97f0f;
   font-size: 24px;
 }
-.disable-lefta-arrow {
-  font-weight: 900;
-  font-size: 24px;
-  color: grey;
-}
+
 .card-container {
   margin-left: 25px;
   margin-right: 25px;
@@ -71,4 +67,10 @@
   font-size: 24px;
   font-weight: 900;
   color: #f97f0f;
+}
+.disable-left-arrow {
+  color: #fff;
+}
+.disable-right-arrow {
+  color: #ffff;
 }

@@ -5,6 +5,14 @@
   align-items: center;
   margin: 2%;
 }
+
+@media screen and (max-width: 768px) {
+  .rupees-and-hint-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid red; */
+  }
+}
 .rupees-and-hint-inner-container {
   display: flex;
   width: 70%;
@@ -21,7 +29,7 @@
 
 .total-budget-heading {
   font-family: Oranienbaum;
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 400;
   letter-spacing: 0.16em;
   margin-right: auto;
@@ -57,12 +65,12 @@
   color: #000;
 }
 .hint-icon-style {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .hint-text {
   font-family: Oranienbaum;
-  font-size: 3.5vw;
+  font-size: 3vw;
   font-weight: 400;
   margin-top: 5px;
   letter-spacing: 0.18em;
@@ -73,7 +81,7 @@
     font-size: 24px;
   }
   .hint-text {
-    font-size: 2vw;
+    font-size: 1.2vw;
   }
 }
 
@@ -166,7 +174,7 @@
 
 @media screen and (max-width: 410px) {
   .range-label {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
 
@@ -195,11 +203,11 @@
 .mobile-devices-category-image {
   width: 40%;
 }
-@media screen and (min-width: 430px) {
+/* @media screen and (min-width: 430px) {
   .mobile-devices-category-image {
     width: 30%;
   }
-}
+} */
 .user-enter-input-field-container {
   display: flex;
   justify-content: flex-start;
@@ -243,7 +251,8 @@
 
 @media screen and (max-width: 768px) {
   .mobile-device-allocation-btn {
-    padding-left: 10vw;
+    /* padding-left: 10vw; */
+    margin-top: 5vw;
   }
 }
 

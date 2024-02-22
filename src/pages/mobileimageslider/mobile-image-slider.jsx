@@ -80,7 +80,7 @@ const MobileImageSlider = () => {
         <span disabled={currentCardIndex === 0} onClick={handleLeftArrowPress}>
           {/* <Text style={styles.disableLeftaArrow}>--</Text> */}
 
-          <FaArrowLeft className="disable-left-arrow" />
+          <FaArrowLeft className="left-arrow disable-left-arrow" />
         </span>
       )}
       <div className="landing-page-carousel">
@@ -109,7 +109,7 @@ const MobileImageSlider = () => {
           disabled={currentCardIndex === carouselImageData.length - 1}
           onClick={handleRightArrowPress}
         >
-          <FaArrowRight className="disable-left-arrow" />
+          <FaArrowRight className="right-arrow disable-right-arrow" />
           {/* <Text>--</Text> */}
         </span>
       )}

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 4%;
+  margin-top: 10%;
   margin-right: 3%;
   margin-left: 3%;
   /* border: 1px solid red; */
@@ -33,6 +33,8 @@
 
 .top-vertical-row-year-container.bold-line .vartical-row {
   border-left: 4px solid #000;
+  margin-top: 3px;
+  /* padding-top: 5px; */
 }
 
 .top-vertical-row-year-container.first-row .vartical-row::before {
@@ -71,8 +73,9 @@
   margin-bottom: 50px;
 }
 .year-text-bold {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 3vw;
+  /* border: 1px solid red; */
 }
 
 @media screen and (min-width: 768px) {

@@ -6,7 +6,7 @@
   /* height: 5vw; */
 }
 .pm-book-logo {
-  width: 6vw;
+  width: 10vw;
   margin-top: 4px;
   margin-left: 5px;
 }
@@ -38,19 +38,25 @@
 
 @media screen and (max-width: 486px) {
   .attempts-game-play-header-top-container {
-    width: 70%;
+    width: 75%;
+    flex-direction: column;
+    /* border: 1px solid red; */
   }
 }
 
 @media screen and (min-width: 486px) and (max-width: 768px) {
   .attempts-game-play-header-top-container {
-    width: 60%;
+    width: 80%;
+    flex-direction: column;
+    /* border: 1px solid red; */
   }
 }
 
 .attempts-game-play-header-count {
   display: flex;
   align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
 }
 .attempts-game-play-header-text {
   color: #000;
