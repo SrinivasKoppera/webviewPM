@@ -1,0 +1,209 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap"); */
+
+.sharable-certificate-main-container {
+  position: fixed;
+  border-radius: 16px;
+  background: white;
+  /* padding-top: 4%; */
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  z-index: 2;
+  /* width: 60%;   */
+  min-height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid red; */
+}
+.sharable-border-container {
+  background: url("../../assets/images/certificateborderimage/certificateborderimage.png");
+  background-size: 90%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1%;
+  margin-top: 5%;
+  /* border: 2px solid greenyellow; */
+}
+.sharable-certificate-container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 10px solid transparent;
+    border-image: url("../../assets//images/certificateborderimage/borderimage-min1.png"); */
+  /* border: 1px solid red; */
+  /* margin: 10px; */
+  /* padding: 5%; */
+}
+@media screen and (max-width: 768px) {
+  .sharable-certificate-container {
+    height: 45vh;
+    width: 80vw;
+    /* border: 1px solid green;  */
+  }
+}
+.star-svg-style {
+  margin-top: -2%;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .profile-image {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.prime-minister-text {
+  color: #f97f0f;
+}
+
+.certificate-heading {
+  /* border: 1px solid red; */
+  margin: 1%;
+  font-family: "Cinzel";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  /* font-weight: 200; */
+  /* line-height: 24px; */
+  /* letter-spacing: 0.09em; */
+  text-align: center;
+  /* margin: 1.5%; */
+}
+@media screen and (max-width: 768px) {
+  .certificate-heading {
+    font-size: 1rem;
+    margin: 0.5%;
+  }
+}
+.certificate-present-text {
+  font-family: "Cardo";
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  /* margin: 4px; */
+}
+@media screen and (max-width: 768px) {
+  .certificate-present-text {
+    font-size: 0.5rem;
+  }
+}
+.certificate-presented-person-name {
+  font-family: "Pinyon Script";
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 2.5%;
+  letter-spacing: 0.04em;
+  color: #c09a2d;
+  text-align: center;
+  /* padding: 2%; */
+}
+@media screen and (max-width: 768px) {
+  .certificate-presented-person-name {
+    font-size: 1rem;
+  }
+}
+.certificate-description {
+  font-family: "Cardo";
+  font-size: 0.7rem;
+  font-weight: 300;
+  width: 60%;
+  line-height: 0.8rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+@media screen and (min-width: 768px) {
+  .certificate-description {
+    width: 50%;
+    /* border: 1px solid red; */
+    line-height: 1rem;
+  }
+}
+.certificate-text-image-container {
+  /* border: 1px solid red; */
+  margin: 1.5%;
+  width: 60%;
+  /* padding-right: 10%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.certificate-bottom-text-box {
+  width: 100%;
+  text-align: center;
+  justify-self: right;
+  /* border: 1px solid red; */
+}
+
+.do-you-have-text {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .do-you-have-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .do-you-have-text {
+    font-size: 1rem;
+  }
+}
+
+.certificate-potential-star {
+  font-family: "Cardo";
+  font-size: 0.7rem;
+  font-weight: 400;
+  /* line-height: 24px; */
+  letter-spacing: 0.04em;
+  margin-top: 10%;
+}
+
+.certificate-book-logo {
+  width: 2.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .certificate-book-logo {
+    width: 6vw;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .certificate-book-logo {
+    width: 5vw;
+  }
+}
+
+.certificate-shared-container {
+  /* border: 1px solid rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -0.5rem;
+}
+.share-text {
+  font-family: "Cardo";
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.social-media-icon-box {
+  margin: 5px;
+  font-size: 1rem;
+}
+.social-media-icon {
+  font-size: 0.5rem;
+  cursor: pointer;
+}

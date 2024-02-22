@@ -1,0 +1,14 @@
+.login-page-slider {
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .login-page-slider {
+    width: 50vw;
+  }
+}
+.login-page-courasal-image {
+  width: 100%;
+}

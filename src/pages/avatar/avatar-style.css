@@ -1,0 +1,337 @@
+.upload-container {
+  background-color: #d9d9d9;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5%;
+  /* border: 1px solid red; */
+}
+.user-profile-photo {
+  min-width: 100px;
+  width: 100px;
+  min-height: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 21%;
+  display: block;
+}
+.user-photo-upload-field {
+  display: none;
+}
+
+.upload-photo-label {
+  /* border: 1px solid red; */
+  margin-top: 1%;
+  /* font-size: 1vw; */
+  cursor: pointer;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nameinput {
+  border-radius: 8px;
+  background-color: #fff;
+  border: 0.7px solid #d9d9d9;
+  box-sizing: border-box;
+  padding: 8px;
+  /* width: 90%;  */
+  /* max-width: 250px; Set a maximum width if required */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.altert-text {
+  /* font-size: 1em; */
+  font-family: Inter;
+  color: #9c9c9c;
+  text-align: center;
+  /* display: inline-block; */
+  width: 100%; /* Full width on small screens */
+}
+
+.t-and-c {
+  font-size: 1em;
+  font-family: Inter;
+  color: #000;
+}
+
+.check-boc-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid red; */
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.details-container {
+  /* border: 1px solid red; */
+  width: 50%; /* Adjust width as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 20px; */
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 5px;
+  /* background-color: red; */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 576px) {
+  .details-container {
+    width: 90%; /* Adjust width for small screens */
+  }
+
+  .upload-container {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.avatar-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: 50%;
+}
+
+.avatar-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.avatar-item img {
+  width: 100%;
+  max-width: 140px; /* Set a maximum width for the avatars */
+  height: auto;
+  border-radius: 9px;
+}
+
+.avatar-container {
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 15px;
+  justify-content: space-around;
+}
+
+@media (max-width: 782px) {
+  .avatar-container {
+    flex-direction: column;
+  }
+  .avatar-list {
+    width: 100%;
+  }
+
+  .details-container {
+    width: 100%;
+  }
+}
+.nav-bar-avatar-container {
+  margin-top: 30px;
+}
+.start-game-button-container {
+  /* border: 1px solid red; */
+  margin-top: 1.2em;
+}
+.save-btn {
+  background-color: #ff8c21;
+  border: none;
+  border-radius: 8px;
+  padding: 1.5%;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 10vw;
+  height: 5vh;
+}
+.start-game-button {
+  width: 50%;
+  padding: 0.5em;
+  font-size: 15px;
+  color: #fff;
+  background: linear-gradient(269.28deg, #e47107, #ff8c21);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.user-name {
+  /* font-size: 20px; */
+  font-family: Inter;
+  color: #000;
+  font-weight: bold;
+}
+.choose-a {
+  /* font-size: 35px; */
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  -webkit-text-stroke: 0.3px #000;
+}
+.logout {
+  font-family: Inter;
+  color: #757575;
+  cursor: pointer;
+}
+
+.or {
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: Inter;
+  color: #000;
+}
+
+.create-your-own {
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: Inter;
+  color: #000;
+}
+@media screen and (max-width: 450px) {
+  .upload-photo-label {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .upload-photo-label {
+    font-size: 2.6vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .user-name {
+    font-size: 4vw;
+  }
+  .choose-a {
+    font-size: 4.2vw;
+  }
+  .logout {
+    font-size: 3.5vw;
+  }
+  .pick-from-characters {
+    font-size: 2.8vw;
+  }
+  .or {
+    font-size: 2.8vw;
+  }
+  .create-your-own {
+    font-size: 2.8vw;
+  }
+  .nameinput {
+    font-size: 3.3vw;
+  }
+  .altert-text {
+    font-size: 3.5vw;
+  }
+  .t-and-c {
+    font-size: 3.5vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .user-name {
+    font-size: 2.9vw;
+  }
+  .choose-a {
+    font-size: 3vw;
+  }
+  .logout {
+    font-size: 2vw;
+  }
+  .pick-from-characters {
+    font-size: 2vw;
+  }
+  .or {
+    font-size: 2vw;
+  }
+  .create-your-own {
+    font-size: 2vw;
+  }
+  .nameinput {
+    font-size: 2vw;
+  }
+  .altert-text {
+    font-size: 2.4vw;
+  }
+  .t-and-c {
+    font-size: 2.4vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .user-name {
+    font-size: 2vw;
+  }
+  .choose-a {
+    font-size: 2.2vw;
+  }
+  .logout {
+    font-size: 1.2vw;
+  }
+  .pick-from-characters {
+    font-size: 1.3vw;
+  }
+  .or {
+    font-size: 1.3vw;
+  }
+  .create-your-own {
+    font-size: 1.3vw;
+  }
+  .nameinput {
+    font-size: 1.2vw;
+  }
+  .altert-text {
+    font-size: 1.2vw;
+  }
+  .t-and-c {
+    font-size: 1.2vw;
+  }
+}
+
+.avatar {
+  font-weight: 700;
+  font-family: Inter;
+  background: linear-gradient(269.28deg, #bf620d, #ff8c21);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pick-from-characters {
+  /* font-size: 20px; */
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: Inter;
+  color: #000;
+}
+
+@media (max-width: 753px) {
+  .nav-bar {
+    flex-direction: column; /* Corrected property value */
+  }
+  .avatar {
+    font-size: 100%;
+  }
+}

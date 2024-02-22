@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap");
+
+.googleButton {
+  width: 300px;
+  padding: 11px;
+  /* font-size: 15px; */
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #ededed;
+  border-width: 0px;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .googleButton {
+    font-size: 3.2vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .googleButton {
+    font-size: 2vw;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .googleButton {
+    font-size: 1.3vw;
+    width: 400px;
+  }
+}
+
+.democratising-political-though {
+  font-weight: 200;
+  font-family: Inter;
+}
+@media screen and (max-width: 768px) {
+  .democratising-political-though {
+    font-size: 3.1vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .democratising-political-though {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .democratising-political-though {
+    font-size: 1.5vw;
+  }
+}
+
+.can-you-manage {
+  /* font-size: 18px; */
+  font-weight: 500;
+  font-family: Inter;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .can-you-manage {
+    font-size: 2.8;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .can-you-manage {
+    font-size: 2.5;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .can-you-manage {
+    font-size: 1.1vw;
+  }
+}
+
+.fantasy {
+  color: #f97f0f;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  /* width: 80%; */
+}
+.fantasyprimeminister {
+  font-size: 0px;
+}
+.primeminister {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.02em;
+  font-family: Alata;
+  color: #000;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .primeminister {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .primeminister {
+    font-size: 4vw;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .primeminister {
+    font-size: 2.5vw;
+    flex-direction: row;
+  }
+}
+
+.signup {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: Inter;
+  color: #f97f0f;
+  cursor: pointer;
+}
+.homePageHeadingContainer {
+  margin-bottom: 50px;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* border: 1px solid red; */
+  text-align: center;
+  /* margin: 0 auto;  */
+  /* Added to horizontally center the container */
+}
+
+.Donthaveanaccount {
+  font-weight: 500;
+  color: #000;
+  /* font-size: 16px; */
+}
+@media screen and (max-width: 768px) {
+  .Donthaveanaccount {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .Donthaveanaccount {
+    font-size: 2.3vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Donthaveanaccount {
+    font-size: 1.5vw;
+  }
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  /* height: 500px; */
+  /* border-width: 3px; */
+}
+.imageAndButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 695px) {
+  .imageAndButtonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+}

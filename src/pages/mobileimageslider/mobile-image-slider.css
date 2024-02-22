@@ -1,0 +1,74 @@
+.mobile-landing-page-image-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90vw;
+}
+
+.landing-page-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 45vh;
+  background-color: #f2f2f2;
+}
+
+.left-arrow {
+  font-weight: 900;
+  color: #f97f0f;
+  font-size: 24px;
+}
+.disable-lefta-arrow {
+  font-weight: 900;
+  font-size: 24px;
+  color: grey;
+}
+.card-container {
+  margin-left: 25px;
+  margin-right: 25px;
+  /* height: 30vh; */
+  padding: 5%;
+}
+.card-styles {
+  /* border: 2px solid green; */
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-number-text {
+  font-weight: 800;
+  font-size: 8vw;
+  color: #000;
+  margin: 5px;
+}
+.gdp-year {
+  font-size: 6vw;
+}
+.card-GDP-text {
+  font-size: 8vw;
+  font-weight: 800;
+  color: #000;
+  margin: 5px;
+}
+.card-image {
+  width: 160px;
+  height: 180px;
+  border-radius: 10px;
+}
+.card-person-name {
+  font-weight: 600;
+  color: #000;
+  font-size: 6vw;
+  margin-top: 4%;
+}
+.right-arrow {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f97f0f;
+}

@@ -1,0 +1,343 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.top-container {
+  display: flex;
+  padding: 1vh;
+}
+
+@media screen and (min-width: 480px) {
+  .top-container {
+    margin-bottom: 5vh;
+  }
+}
+
+.brand-logo {
+  width: 45px;
+  margin-left: 1vw;
+}
+
+.attempt-heading-container {
+  width: 100vw;
+  text-align: center;
+}
+
+.attempt-heading {
+  letter-spacing: 5px;
+  margin-bottom: 2vh;
+}
+@media screen and (max-width: 768px) {
+  .attempt-heading {
+    letter-spacing: 5px;
+  }
+}
+.attempt-description {
+  letter-spacing: 2px;
+}
+
+.attempts-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rebeccapurple; */
+}
+.attempt-card {
+  min-width: 250px;
+  min-height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  margin: 1vh;
+}
+
+@media screen and (min-width: 600px) {
+  .attempt-card {
+    margin: 2vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-with-redirect-link {
+    margin-top: 10px;
+  }
+}
+.redirect-link {
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: underline;
+  margin-bottom: -0.8vh;
+}
+.attempt-payment-type-box {
+  border-radius: 16px 16px 0px 0px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Helvetica;
+  align-items: center;
+}
+.box-1 {
+  background: linear-gradient(180deg, #55b93b 0%, #23740f 100%);
+}
+.box-2 {
+  background: linear-gradient(180deg, #f97f0f 0%, #9f4f05 100%);
+}
+.box-3 {
+  background: linear-gradient(
+    161deg,
+    #ffd232 12.82%,
+    #e6b402 60.69%,
+    #e6b402 60.69% /* #b8b8b6 60.69% */
+  );
+}
+.attempt-payment-type-text {
+  color: #fff;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.referal-code-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 10px;
+  margin-top: 1.5vh;
+  font-weight: 700;
+  color: #fff;
+}
+.copy-svg {
+  margin-left: 5px;
+}
+.attempt-card-middle {
+  padding: 15px;
+}
+.started-on-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  /* margin: 2vh; */
+  /* border: 1px solid red; */
+}
+.hash-style {
+  font-weight: 800;
+  margin-left: 6px;
+}
+.started-on-text {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  font-weight: 600;
+  /* border: 1px solid red; */
+}
+
+.date-time-tickmark-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3vh 0.5vh;
+}
+
+@media screen and (min-width: 600px) {
+  .date-time-tickmark-container {
+    margin: 5vh 1vh;
+  }
+}
+
+.tickmark-svg {
+  margin-right: 2.5vw;
+}
+@media screen and (max-width: 768px) {
+  .tickmark-svg {
+    margin-right: 30px;
+  }
+}
+.date-time-box {
+  display: flex;
+}
+.date {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+  margin-right: 1.2vw;
+}
+
+.time {
+  margin-right: auto;
+  color: #000;
+  font-family: Helvetica;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  text-transform: uppercase;
+}
+
+.status-of-attempt {
+  display: flex;
+  flex-direction: column;
+}
+.status {
+  color: #55b93b;
+  font-family: Helvetica;
+  font-size: 8px;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+}
+.availability-status {
+  color: #b5b5b5;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+
+.start-game-btn-container {
+  text-align: center;
+  margin-top: 1vh;
+}
+.play-game-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .play-game-link {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .play-game-link {
+    font-size: 2.2vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .play-game-link {
+    font-size: 1.5vw;
+  }
+}
+
+.start-game-btn {
+  width: 20vw;
+  height: 6vh;
+  border: none;
+  margin: 10px;
+  /* background-color: black;
+  border-radius: 8px; */
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 8px;
+  background: linear-gradient(269deg, #e47107 7.25%, #ff8c21 86.57%);
+}
+
+@media screen and (max-width: 768px) {
+  .start-game-btn {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .started-on-text {
+    font-size: 3vw;
+  }
+  .date {
+    font-size: 3vw;
+  }
+  .time {
+    font-size: 3vw;
+  }
+  .attempt-payment-type-text {
+    font-size: 3.4vw;
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 768px) {
+  .started-on-text {
+    font-size: 2vw;
+  }
+  .date {
+    font-size: 2.8vw;
+  }
+  .time {
+    font-size: 2.8vw;
+  }
+  .attempt-payment-type-text {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .attempt-heading {
+    font-size: 5vw;
+  }
+  .attempt-description {
+    font-size: 3.4vw;
+  }
+  .attempt-payment-type-text {
+    font-size: 3vw;
+  }
+  .hash-style {
+    font-size: 3.3vw;
+  }
+  .availability-status {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .attempt-heading {
+    font-size: 3.8vw;
+  }
+  .attempt-description {
+    font-size: 2vw;
+  }
+  .attempt-payment-type-text {
+    font-size: 2vw;
+  }
+  .hash-style {
+    font-size: 1.7vw;
+  }
+  .availability-status {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .attempt-heading {
+    font-size: 3vw;
+  }
+  .attempt-description {
+    font-size: 1.7vw;
+  }
+  .attempt-payment-type-text {
+    font-size: 1.3vw;
+  }
+  .hash-style {
+    font-size: 1vw;
+  }
+  .availability-status {
+    font-size: 1vw;
+  }
+}

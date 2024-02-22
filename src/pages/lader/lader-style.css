@@ -1,0 +1,89 @@
+.ladder-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4%;
+  margin-right: 3%;
+  margin-left: 3%;
+  /* border: 1px solid red; */
+}
+
+@media screen and (min-width: 768px) {
+  .ladder-container {
+    margin-top: 1%;
+  }
+}
+
+.ladder-steps-container {
+  display: flex;
+  justify-content: space-between;
+}
+.top-vertical-row-year-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vartical-row {
+  height: 2.5vw;
+  border: 1px solid #000;
+  border-radius: 25%;
+  position: relative;
+}
+
+.top-vertical-row-year-container.bold-line .vartical-row {
+  border-left: 4px solid #000;
+}
+
+.top-vertical-row-year-container.first-row .vartical-row::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 27%;
+  margin-left: -8px;
+  margin-top: 2px;
+}
+.first-number {
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1226px) {
+  .first-number {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 1226px) {
+  .first-number {
+    font-size: 1.2vw;
+  }
+}
+.horizantal-row-container {
+  /* width: 100%; */
+  border: 1px solid black;
+  align-items: center;
+  margin-top: -1.5%;
+}
+.increase-btn {
+  align-self: flex-start;
+  margin-bottom: 50px;
+}
+.year-text-bold {
+  font-weight: 900;
+  font-size: 3vw;
+}
+
+@media screen and (min-width: 768px) {
+  .year-text-bold {
+    font-size: 1.8vw;
+  }
+}
+
+.hide-span {
+  display: none;
+}
+/* .bold-line {
+  border: 3px solid #000;
+} */

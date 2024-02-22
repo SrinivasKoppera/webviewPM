@@ -1,0 +1,206 @@
+.top-Nav {
+  display: flex;
+  flex-direction: "row";
+  gap: 30px;
+  /* border:  1px solid yellow; */
+}
+
+.top-nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 1rem;
+  /* border: 1px solid green; */
+}
+
+.book-logo {
+  margin-top: 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .book-logo {
+    height: 10vw;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .book-logo {
+    height: 8vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .book-logo {
+    height: 4.5vw;
+  }
+}
+
+.limitaion-box-container {
+  /* width: 50%; */
+  box-shadow: 0px 2px 2.62px 1px rgba(0, 0, 0, 0.23);
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 70vh; */
+}
+.paragraph-container {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 5rem; */
+}
+
+/* .custom-box-container {
+  width: 50%;
+} */
+
+.heading {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: "Oranienbaum";
+  letter-spacing: 1px;
+}
+
+.next-button {
+  margin: 3% 1% 1% 1%;
+  width: 20vw;
+  padding: 11px;
+  background: linear-gradient(269.28deg, #e47107, #ff8c21);
+  border-width: 0px;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  color: #ffffff; /* Use 'color' to set text color */
+  text-decoration: none;
+}
+.skip-button-link {
+  text-decoration: none;
+}
+.skip-button {
+  color: #f97f0f;
+}
+
+.custom-page-main-container {
+  background-color: #ededed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.paragraph-text {
+  /* font-size: 1.05rem; */
+  font-family: "Oranienbaum";
+}
+
+.custom-logout {
+  /* padding: 20px; */
+  color: #757575;
+  font-weight: 700;
+  font-family: "Inter";
+}
+
+.nav-item {
+  color: #000000;
+  font-weight: bold;
+  font-family: "Inter";
+  /* border: 1px solid red; */
+}
+
+.instructions-card {
+  max-height: 80vh;
+  /* overflow-y: scroll; */
+  padding: 1% 5%;
+}
+
+/* @media screen and (max-width: 768px) {
+  .instructions-card {
+    max-height: 80vh;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    font-size: 2.8vw;
+  }
+  .custom-logout {
+    font-size: 2.6vw;
+  }
+  .heading {
+    font-size: 4.8vw;
+  }
+  .paragraph-text {
+    font-size: 3.4vw;
+  }
+  .next-button {
+    font-size: 3vw;
+  }
+  .skip-button {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .nav-item {
+    font-size: 2vw;
+  }
+  .custom-logout {
+    font-size: 1.8vw;
+  }
+  .heading {
+    font-size: 4vw;
+  }
+  .paragraph-text {
+    font-size: 2.2vw;
+  }
+  .next-button {
+    font-size: 1.8vw;
+  }
+  .skip-button {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-item {
+    font-size: 1.5vw;
+  }
+  .custom-logout {
+    font-size: 1.3vw;
+  }
+  .heading {
+    font-size: 3vw;
+  }
+  .paragraph-text {
+    font-size: 1.4vw;
+  }
+  .next-button {
+    font-size: 1.3vw;
+  }
+  .skip-button {
+    font-size: 1.3vw;
+  }
+}
+
+.custom-box-container {
+  width: 80%;
+}
+
+.buy-book-link {
+  text-decoration: none;
+}

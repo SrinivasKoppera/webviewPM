@@ -1,0 +1,107 @@
+.hint-page-btn-container {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+@media screen and (max-width: 768px) {
+  .hint-page-btn-container {
+    margin-top: 4vh;
+  }
+}
+.hint-page-buttons {
+  width: 30vw;
+  height: 6vh;
+  border: none;
+  flex-shrink: 0;
+  border-radius: 8px;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+@media screen and (max-width: 768px) {
+  .hint-page-buttons {
+    height: 5.5vh;
+    font-size: 3vw;
+  }
+}
+.hint-text-container {
+  margin: 3vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+.hint-description {
+  color: #000;
+  font-family: Oranienbaum;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+@media screen and (max-width: 768px) {
+  .hint-description {
+    font-size: 3vw;
+  }
+}
+.go-to-back-btn {
+  background-color: #000;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+@media screen and (max-width: 768px) {
+  .go-to-back-btn {
+    font-size: 3vw;
+  }
+}
+.buy-book-btn {
+  background-color: transparent;
+}
+.hint-video-container {
+  margin: 3vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+.video-iframe {
+  margin: 5px;
+  width: 20vw;
+}
+@media screen and (max-width: 768px) {
+  .hint-video-container {
+    flex-direction: column;
+  }
+  .video-iframe {
+    width: auto;
+  }
+}
+.highlighted {
+  background-color: #ffe589;
+}
+.unhighlighted {
+  background-color: transparent;
+  color: #8a8a8a;
+}
+.link-tag-styles {
+  text-decoration: none;
+  color: #fff;
+  margin: 3px;
+}
+.buy-book-link {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,705 @@
+/******************** GDP and Rupees Container Styles ***********************/
+.rupees-and-hint-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+.rupees-and-hint-inner-container {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+  .rupees-and-hint-inner-container {
+    width: 100%;
+  }
+}
+
+.total-budget-heading {
+  font-family: Oranienbaum;
+  font-size: 5vw;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  margin-right: auto;
+  margin-left: 43%;
+}
+
+@media screen and (min-width: 768px) {
+  .total-budget-heading {
+    font-size: 3.8vw;
+  }
+}
+.cr-text-style {
+  font-family: Oranienbaum;
+  font-size: 3vw;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-top: 3px;
+}
+@media screen and (min-width: 768px) {
+  .cr-text-style {
+    font-size: 2vw;
+  }
+}
+
+.hint-button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+.hint-icon-style {
+  font-size: 30px;
+}
+
+.hint-text {
+  font-family: Oranienbaum;
+  font-size: 3.5vw;
+  font-weight: 400;
+  margin-top: 5px;
+  letter-spacing: 0.18em;
+  text-align: left;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .hint-icon-style {
+    font-size: 24px;
+  }
+  .hint-text {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hint-text {
+    font-size: 1.3vw;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~   Labels and Range inut container styles ~~~~~~~~~~~~~~~~~~~~~~~*/
+.mobile-devices-container {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10vw;
+}
+
+.mobile-devices-left-label-and-range-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 100%;
+}
+@media screen and (max-width: 430px) {
+  .mobile-devices-left-label-and-range-container {
+    width: 35vw;
+    /* border: 1px solid red; */
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 768px) {
+  .mobile-devices-left-label-and-range-container {
+    width: 35vw;
+    /* border: 1px solid red; */
+  }
+}
+.input-labels-container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vw;
+}
+
+@media screen and (min-width: 431px) and (max-width: 768px) {
+  .input-labels-container {
+    height: 20vw;
+  }
+}
+.range-input-container {
+  /* border: 1px solid red; */
+  height: 100%;
+}
+@media screen and (max-width: 430px) {
+  .range-input-container {
+    margin-left: -35%; /* This is small devices label and range bar distance */
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 768px) {
+  .range-input-container {
+    margin-left: -26%; /* This is small devices label and range bar distance */
+  }
+}
+
+.range-input-bar {
+  transform: rotate(270deg);
+  width: 100%;
+}
+
+@media screen and (min-width: 431px) and (max-width: 768px) {
+  .input-labels-container {
+    height: 25vw;
+    /* border: 1px solid red; */
+  }
+  .range-input-bar {
+    width: 25vw;
+    /* border: 1px solid red; */
+  }
+}
+
+.range-label {
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 410px) {
+  .range-label {
+    font-size: 4vw;
+  }
+}
+
+.mobile-devices-image-and-input-container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+}
+@media screen and (max-width: 430px) {
+  .mobile-devices-image-and-input-container {
+    width: 70vw;
+    margin-left: -40%;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 768px) {
+  .mobile-devices-image-and-input-container {
+    width: 70vw;
+    margin-left: -40%;
+  }
+}
+
+.mobile-devices-category-image {
+  width: 40%;
+}
+@media screen and (min-width: 430px) {
+  .mobile-devices-category-image {
+    width: 30%;
+  }
+}
+.user-enter-input-field-container {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  margin-left: -12px;
+}
+.category-name {
+  font-size: 5vw;
+  /* border: 1px solid red; */
+}
+.input-and-in-cross-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vw;
+}
+.user-enter-input {
+  background-color: #ccc;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 15vw;
+  font-size: 3vw;
+}
+
+.in-cross-text {
+  font-size: 2.2vw;
+  font-weight: 500;
+  margin: 1.5vw;
+}
+
+/* ________________ Allocation Button Container Styles _______________ */
+.allocate-btn-container {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin: 2.7%;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-device-allocation-btn {
+    padding-left: 10vw;
+  }
+}
+
+.allocate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 8px;
+  height: 4vw;
+  width: 20vw;
+  border: none;
+  font-family: Helvetica;
+  font-size: 1.2vw;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+}
+
+@media screen and (max-width: 768px) {
+  .allocate-btn {
+    width: 30vw;
+    font-size: 4vw;
+    height: 8vw;
+  }
+}
+.allocation-icon {
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 910px) {
+  .allocate-btn {
+    height: 4vw;
+    font-size: 2.3vw;
+  }
+}
+
+@media screen and (min-width: 910px) {
+  .allocate-btn {
+    height: 3.5vw;
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .medium-and-large-devices {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-and-medium-devices {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .large-device-allocation-btn {
+    display: none;
+  }
+}
+
+/*----------------> Medium and Large Device Styles <----------------- */
+
+.medium-and-large-devices-middle-container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 50vh; */
+  /* border: 3px solid yellow;s */
+}
+.medium-and-large-devices-left-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.left-labels-and-range-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+@media screen and (min-width: 910px) {
+  .left-labels-and-range-input-container {
+    margin-top: -9%;
+  }
+}
+.left-labels-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: -35%; /*This is left labels distance*/
+  height: 25vh;
+}
+
+.medium-range-input {
+  transform: rotate(270deg);
+  width: 25vh;
+}
+
+.large-range-label {
+  font-size: 2.5vw;
+}
+
+@media screen and (min-width: 769px) and (max-width: 910px) {
+  .left-labels-container {
+    height: 17vw;
+  }
+  .medium-range-input {
+    width: 17vw;
+  }
+  .large-range-label {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1496px) {
+  .left-labels-container {
+    height: 17vw;
+  }
+  .medium-range-input {
+    width: 17vw;
+  }
+  .large-range-label {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 1496px) and (max-width: 1896px) {
+  .left-labels-container {
+    height: 17vw;
+  }
+  .medium-range-input {
+    width: 17vw;
+  }
+  .large-range-label {
+    font-size: 1.2vw;
+  }
+}
+@media screen and (min-width: 1896px) {
+  .left-labels-container {
+    height: 17vw;
+  }
+  .medium-range-input {
+    width: 17vw;
+  }
+  .large-range-label {
+    font-size: 1.1vw;
+  }
+}
+
+.large-devices-image-container {
+  /* border: 2px solid green; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -20%;
+}
+
+.medium-devices-image {
+  width: 50%;
+  /* border: 2px solid green; */
+}
+.defense-image {
+  width: 40%;
+}
+.large-devices-input-and-rupee {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -2%;
+}
+.rupee-icon {
+  margin-top: 7%;
+}
+.large-device-user-enter-input {
+  background-color: #ccc;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 10vw;
+  height: 1.6vw;
+  font-size: 1.5vw;
+}
+
+.large-devices-input-and-in-cross-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.large-devices-in-cross-text {
+  font-size: 1.5vw;
+  margin: 3%;
+}
+@media screen and (min-width: 769px) and (max-width: 910px) {
+  .medium-devices-image {
+    width: 50%;
+  }
+  .category-name {
+    font-size: 3vw;
+  }
+  .large-devices-in-cross-text {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 911px) and (max-width: 1496px) {
+  .medium-devices-image {
+    width: 40%;
+  }
+  .category-name {
+    font-size: 2.5vw;
+  }
+  .defense-image {
+    width: 38%;
+  }
+  .large-device-user-enter-input {
+    height: 1.4vw;
+  }
+  .large-devices-in-cross-text {
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (min-width: 1496px) and (max-width: 1896px) {
+  .medium-devices-image {
+    width: 45%;
+  }
+  .category-name {
+    font-size: 2.5vw;
+  }
+  .defense-image {
+    width: 43%;
+  }
+  .large-device-user-enter-input {
+    height: 1.5vw;
+  }
+  .large-devices-in-cross-text {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 1896px) {
+  .category-name {
+    font-size: 3vw;
+  }
+  .large-devices-in-cross-text {
+    font-size: 0.8vw;
+  }
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%% Sea Saw Styles %%%%%%%%%%%%%%%%%%%%%%%%%*/
+.medium-and-large-devices-sea-saw-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding-top: 3.2%;
+}
+
+@media screen and (min-width: 1496px) {
+  .medium-and-large-devices-sea-saw-container {
+    padding-top: 4%;
+  }
+}
+.App {
+  text-align: center;
+  /* margin-top: 50px; */
+}
+
+.seesaw {
+  width: 20vw;
+  height: 10vh;
+  position: relative;
+  overflow: hidden;
+  animation: seesawAnimation 1.5s ease-in-out infinite alternate;
+}
+
+.board {
+  width: 100%;
+  height: 32%;
+  background-color: #966f33;
+  /* background-color: #5d4105; */
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(22, 47, 153, 1) 100%
+  ); */
+}
+@media screen and (max-width: 768px) {
+  .board {
+    height: 25%;
+  }
+}
+.support {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #966f33;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+@keyframes seesawAnimation {
+  0% {
+    transform: rotate(-9deg);
+  }
+  100% {
+    transform: rotate(9deg);
+  }
+}
+
+.tri {
+  height: 4vw;
+}
+
+.sea-saw-tri {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 572px) {
+  .sea-saw-tri {
+    display: none;
+  }
+}
+
+.text {
+  position: absolute;
+  color: black;
+  font-size: 1.5vw;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 1226px) {
+  .text {
+    font-size: 1.3vw;
+  }
+}
+.top-left {
+  top: -20px;
+  left: 5px;
+}
+
+.top-right {
+  top: -20px;
+  right: 5px;
+}
+
+@media screen and (min-width: 996px) {
+  .top-left {
+    top: -25px;
+  }
+  .top-right {
+    top: -25px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 910px) {
+  .seesaw {
+    height: 6.5vw;
+  }
+  .tri {
+    height: 4vw;
+  }
+}
+
+@media screen and (min-width: 911px) and (max-width: 1496px) {
+  .seesaw {
+    height: 6vw;
+  }
+  .tri {
+    height: 4vw;
+  }
+}
+
+@media screen and (min-width: 1496px) and (max-width: 1896px) {
+  .seesaw {
+    height: 6vw;
+  }
+  .tri {
+    height: 4vw;
+  }
+}
+
+.medium-and-large-devices-right-container {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  width: 40vw;
+}
+
+.right-labels-and-range-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  /* border: 1px solid red; */
+}
+
+@media screen and (min-width: 910px) {
+  .right-labels-and-range-input-container {
+    margin-top: -9%;
+  }
+}
+.right-image-padding {
+  margin: 0px;
+  margin-left: 10%;
+  /* border: 2px solid orange; */
+  margin-right: -20%;
+}
+.right-labels-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 25vh;
+  margin-left: -35%;
+}
+@media screen and (min-width: 769px) and (max-width: 910px) {
+  .right-labels-container {
+    height: 16vw;
+  }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1496px) {
+  .right-labels-container {
+    height: 17vw;
+  }
+}
+
+@media screen and (min-width: 1496px) and (max-width: 1896px) {
+  .right-labels-container {
+    height: 17vw;
+  }
+}
+@media screen and (min-width: 1896px) {
+  .right-labels-container {
+    height: 17vw;
+  }
+}
