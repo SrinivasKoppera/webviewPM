@@ -17,7 +17,8 @@ const AttemptsScreen = () => {
         <div className="attempt-heading-container">
           <h4 className="attempt-heading">{t("ATTEMPT")}</h4>
           <p className="attempt-description">
-            {t("Note : You have Max 18 Attempts in Total")}
+            <span>{t("Note : You have Max 18")}</span>
+            <span>{t("Attempts in Total")}</span>
           </p>
         </div>
       </div>
