@@ -10,7 +10,7 @@ import LeaderBoardContainer from "./pages/leaderboardtable/leaderboard-container
 import AttemptsScreen from "./pages/attempts/attempts-screen";
 import HintPageScreen from "./pages/hintpage/hintpage-screen";
 import { BrowserRouter as HashRouter, Route, Routes } from "react-router-dom";
-import LogInContainer from "./pages/Login/login-container";
+// import LogInContainer from "./pages/Login/login-container";
 import AvatarContainer from "./pages/avatar/avatar-container";
 import CompletionCertificateContainer from "./pages/completioncertificate/completion-certificate-container";
 import LaderContainer from "./pages/lader/lader-container";
@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPageContainer />} />
           <Route path="/leaderboard" element={<LeaderBoardContainer />} />
-          <Route path="/LogInContainer" element={<LogInContainer />} />
+          {/* <Route path="/LogInContainer" element={<LogInContainer />} /> */}
           <Route path="/AvatarContainer" element={<AvatarContainer />} />
 
           <Route path="/attempts" element={<AttemptsScreen />} />
